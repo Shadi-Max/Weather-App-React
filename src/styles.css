@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 0.8rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+h4 {
+  color: #ffffff8c;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0;
+}
+
+hr {
+  color: #ffffff;
+  height: 160px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+input {
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  height: 20px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.searchbar-container {
+  margin-bottom: 30px
+}
+
+.searchbar-container p{
+  position: fixed;
+  padding-left: 10px;
+}
+
+.weather-app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(70deg, rgba(137,223,255,1) 0%, rgba(0,127,255,1) 42%, rgba(0,101,189,1) 100%);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.weather-container {
+  visibility: hidden;
+  padding: 25px;
+  display: grid;
+  justify-content: center;
+  min-height: 35vh;
+  min-width: 500px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.primary-weather-data {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.weather-infos-right {
+  min-width: 150px;
+  max-width: 250px;
+}
+
+.secondary-weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-weather-col {
+  text-align: center;
+}
+
