@@ -15,7 +15,7 @@ function App() {
         return 'src/assets/weather-icons/rainy.png';
       }
         else if (data.weather[0].main === "Clear") {
-          return '/assets/weather-icons/clear.png';
+          return 'src/assets/weather-icons/clear.png';
       }
         else if (data.weather[0].main === "Drizzle" || data.weather[0].main === "Snow") {
           return 'src/assets/weather-icons/snowy.png';
